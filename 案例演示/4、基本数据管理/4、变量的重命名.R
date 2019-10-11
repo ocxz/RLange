@@ -2,6 +2,7 @@
 # 使用reshap包中的rename函数，进行变量重命名
 # rename的格式：rename(dataframe, c(oldname="newname, ……))
 # 也可通过names(dataframe)[索引] <- "newname"
+# 也可通过names(datafrme)[6:10] <- c("n1", "n2", "n3", "n4", "n5", "n6")
 # 填入数据
 manager <- 1:5
 date <- c("10/24/08", "10/28/08", "10/01/08", "10/01/08", "05/01/09")
